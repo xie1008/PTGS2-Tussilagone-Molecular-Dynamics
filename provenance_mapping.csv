@@ -1,0 +1,4 @@
+display_replica,original_replica,seed,platform_precision,source_directory,selection_status
+1,2,20261107,Apple M4/OpenCL single,work/ptgs2_rep2,selected for this reanalysis
+2,3,20261108,Tesla T4/OpenCL mixed,work/ptgs2_rep3,selected for this reanalysis
+3,4,20261109,Tesla T4/OpenCL mixed,work/ptgs2_rep4,selected for this reanalysis
