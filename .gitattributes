@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+data/replica4/PTGS2_TS_Replica4_100ns.zip filter=lfs diff=lfs merge=lfs -text
