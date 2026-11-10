@@ -1,0 +1,5 @@
+Analysis environment
+
+Primary analysis script: Scripts/selected_3rep_qc3.py
+Trajectory-analysis libraries: NumPy, SciPy, Matplotlib, and the trajectory-analysis package imported by the script.
+Analysis scope: three selected 100-ns trajectories; no new MD simulation, MM/GBSA, SASA, or hydrogen-bond analysis was added.
