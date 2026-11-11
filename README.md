@@ -2,9 +2,25 @@
 
 This repository contains the three 100-ns PTGS2–tussilagone molecular-dynamics trajectories used for the revised analysis, together with the reproducible analysis script, quantitative CSV outputs, provenance mapping, quality-control notes, and publication figures.
 
-## Data provenance
 
-The displayed replicas were selected from four completed simulations after the additional trajectory became available. This selection was made during reanalysis and was not a pre-registered selection. The exact mapping is provided in `provenance_mapping.csv`.
+### Trajectory Provenance and Replica Selection
+
+During data organization, four trajectory files were initially identified. Subsequent verification of the simulation records revealed that the file originally designated as Replica 1 was an inadvertently included trajectory from a previous simulation run rather than a newly generated trajectory from the current set of independent simulations.
+
+Therefore, the previous trajectory (Replica 1) was excluded from the current analysis based on its provenance, independently of its simulation results or binding-stability metrics.
+
+The three newly generated trajectories, originally designated as Replicas 2, 3, and 4, were retained as the three independent replicates for the revised molecular dynamics analysis. For consistency with the manuscript and figures, these trajectories were relabeled as Replicas 1, 2, and 3, respectively.
+
+The correspondence between the original trajectory identifiers and the final replicate labels is documented below.
+
+| Original trajectory identifier | Final manuscript label | Status |
+|---|---|---|
+| Original Replica 1 | Not included | Previous simulation trajectory inadvertently included during data organization |
+| Original Replica 2 | Replica 1 | Included |
+| Original Replica 3 | Replica 2 | Included |
+| Original Replica 4 | Replica 3 | Included |
+
+No trajectory was excluded on the basis of ligand RMSD, protein RMSD, contact occupancy, binding stability, or other simulation outcomes.
 
 ## Analysis definitions
 
